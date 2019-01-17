@@ -1,0 +1,179 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal {        
+    text-align: center;
+    background-color: #222629;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+/* bloco de citações */
+.citacao-bio {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+    margin: 20px 40px;
+    padding:5px 5px; 
+}
+.citacao-fiat {
+    float: right;
+}
+.citacao-petrobras {
+    float: left;
+}
+cite {
+    font-style: italic;
+    float: right;
+}
+
+.subtitulo-texto {
+    clear: both;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: rgb(26, 25, 26);
+    color: #F2FFFC;
+    text-transform: lowercase;
+    border: 10px solid #434444;
+    border-top: 0;
+    
+}
+
+.rodape-pagina {
+	background-color: #222629;
+    color: #F2FFFC;
+    clear: both;
+    bottom: 0;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+main a {
+    color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.container {
+	width: 840px;
+	margin: 0 auto;
+    padding: 40px 0;
+    padding-bottom: 80px;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+h2 {
+    font-size:30px;
+    clear: both;
+}
+
+aside {
+    padding: 20px;
+}
+
+aside {
+    background-color: rgb(26, 25, 26);
+    color:#F2FFFC;
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans Condensed", sans-serif;    
+    clear: right;
+    box-sizing: border-box;
+    width:15%;
+    position: relative;
+    right: 0px;
+    top: 310px;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.minha-foto, .navegacao-site {
+    border-left: 10px solid #3c3e3f;
+    border-bottom: 10px solid #3c3e3f;
+    box-sizing: border-box;
+    float: right;    
+    box-sizing: border-box;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+aside h1 {    
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+nav h1 {
+    color: #F2FFFC;
+    font-size: 30px;
+    padding: 25px;
+}
+
+nav a {
+    color: inherit;    
+}
+
+.icones-redes-sociais a {
+    /* text-indent: -10000px; */
+    /*font-size: 0;*/
+    color: transparent;
+    width: 40px;
+    height: 40px;
+    display: inline-block;    
+}
+
+.icones-redes-sociais li {        
+    display: inline-block;
+}
+
+.github {
+    background-image: url(../images/github.png);
+}
+
+.twitter {
+    background-image: url(../images/twitter.png);  
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.png);
+}
+
